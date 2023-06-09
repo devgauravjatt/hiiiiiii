@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./logo.png">
+        </div>
+        <label id="menubtn" class="menu-btn">
+            <i class='bx bxs-food-menu bx-tada bx-rotate-90' style='color:#ffffff' ></i>
+        </label>
+        <ul style="display: none;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div>
+            Responsive Navigation Menu Bar Design
+        </div>
+        <div class="fast">
+            using only HTML & CSS
+        </div>
+    </div>
+    <h2></h2>
+</body>
+<script>
+$(document).ready(function(){
+  $("#menubtn").click(function(){
+    $("ul").toggle();
+  });
+});
+</script>
+</html>
