@@ -53,7 +53,9 @@ a:Hover {
     html {
         font-size: 60%;
     }
-
+    a{
+    font-size: 17px;
+    }
     ul {
         position: absolute;
         height: 300px;
